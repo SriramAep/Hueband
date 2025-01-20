@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    font-family: 'Luxora Grotesk', sans-serif;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+.hb {
+    font-family: 'IntroBold', 'Roboto';
+    font-size: 4vw;
+}
+
+.films {
+    font-family: 'Bebas Neue Pro', sans-serif;
+    font-weight: 100;
+    font-size: 3vw;
+    letter-spacing: 2.75vw;
+}
+
+.welcomeBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6vw;
+}
+
+.dive {
+    font-size: 1vw;
+    font-weight: 300;
+    margin-right: 0.3vw;
+}
+
+.arrowRightsvg {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.diveBox {
+    margin-top: 2.5vw;
+    margin-right: 14.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.diveBox:hover { 
+    cursor: pointer; 
+}

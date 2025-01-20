@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'IntroBold';
+    src: url('../fonts/intro-bold/Intro-Bold-Regular.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.totalBox {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-columns: 2.5fr 1fr 0.1fr;
+}
+
+.subBox {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+
+img {
+    height: 100vh;
+    object-fit: cover;
+    pointer-events: none;
+}

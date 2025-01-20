@@ -1,0 +1,19 @@
+
+a {
+    font-family: 'Luxora Grotesk', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.7vw;
+    margin-top: 2vw;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
