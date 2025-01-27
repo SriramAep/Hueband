@@ -1,0 +1,31 @@
+
+.mainBox {   
+    position: relative;
+    background-color: white;
+}
+
+.flex {
+    position: absolute;
+    z-index: 10;
+    margin-top: 1vw;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.bg {
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+    /* filter: blur(0.7px); */
+}
+
+.series {
+    position: relative;
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    height: 100vw;
+    
+}
+

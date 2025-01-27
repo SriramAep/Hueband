@@ -1,0 +1,20 @@
+.container {
+    margin-left: 3vw;
+}
+
+
+.hb {
+    font-family: 'IntroBold', 'Roboto';
+    font-size: 1.25vw;
+}
+
+.films {
+    font-family: 'Bebas Neue Pro', sans-serif;
+    font-weight: 100;
+    font-size: 0.75vw;
+    letter-spacing: 1.15vw;
+}
+
+a {
+    cursor: pointer;
+}

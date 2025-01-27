@@ -1,12 +1,27 @@
+import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
+import { motion } from 'framer-motion';
+import { globalMap } from './GlobalMap';
 
-
-function Header  ({props}) {
+function Header  ({props}: {props: string[]}) {
     return (
         <div className={styles.head}>
-            <a>{props[0]}</a>
-            <a>{props[1]}</a>
-            <a>{props[2]}</a>
+            {props.map(function (prop) {
+                return (
+                    <div className={styles.center}>
+                        <motion.a
+                            whileHover={{
+                                scale: 1.03,
+                            }}
+                            className={styles.underscore}
+                            >
+                            <Link to={globalMap.get(prop)}>
+                                {prop}
+                            </Link>
+                        </motion.a>
+                    </div>
+                );
+            })} 
         </div>
     )
 }

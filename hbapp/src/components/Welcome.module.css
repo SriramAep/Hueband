@@ -29,24 +29,24 @@
 }
 
 .dive {
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-weight: 300;
-    margin-right: 0.3vw;
-}
-
-.arrowRightsvg {
-    width: 1.3vw;
-    height: 1.3vw;
-}
-
-.diveBox {
+    padding: 0.5vw 0.8vw;
+    border-radius: 10rem;
     margin-top: 2.5vw;
-    margin-right: 14.2vw;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    gap: 0.2vw;
+
 }
 
-.diveBox:hover { 
-    cursor: pointer; 
+.arrowRight {
+    transition: transform 0.1s ease;
+}
+
+.dive:hover .arrowRight {
+    transform: rotate(-30deg);
 }

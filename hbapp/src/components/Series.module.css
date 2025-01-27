@@ -1,0 +1,20 @@
+
+
+.nameBox {
+    margin-top: 8vw;
+}
+
+.color {
+    font-family: 'IntroBold', 'Roboto';
+    font-size: 5vw;
+    text-align: center;
+    padding: 2.2vw 0; 
+}
+
+.color2 {
+    font-family: 'IntroBold', 'Roboto';
+    color: black;
+    font-size: 5vw;
+    text-align: center;
+    padding: 2.2vw 0; 
+}

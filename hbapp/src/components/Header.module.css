@@ -4,16 +4,53 @@ a {
     font-weight: 300;
     text-align: center;
     font-size: 0.7vw;
-    margin-top: 2vw;
     text-decoration: none;
     color: inherit;
-}
-
-a:hover {
-    cursor: pointer;
+    position: relative;
+    padding: 0.2em 0;
 }
 
 .head {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .underscore:hover {
+    cursor: pointer;
+ }
+
+/* Fade in */
+.underscore::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 300ms, transform 200ms;
+}
+
+.underscore:hover::after,
+.underscore:focus::after { 
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+}
+
+.underscore::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.underscore:hover::after,
+.underscore:focus::after{
+    transform: scale(1);
 }

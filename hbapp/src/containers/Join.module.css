@@ -1,0 +1,10 @@
+
+
+.flex {
+    
+    z-index: 10;
+    margin-top: 1vw;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}

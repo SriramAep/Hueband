@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'IntroBold';
     src: url('../fonts/intro-bold/Intro-Bold-Regular.ttf') format('truetype');
-
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +16,7 @@
     grid-template-rows: 1fr 10fr;
 }
 
-img {
+.silhouette {
     height: 100vh;
     object-fit: cover;
     pointer-events: none;
